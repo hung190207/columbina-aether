@@ -1,0 +1,12 @@
+/* Full-screen moonlit scene */
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #030814;
+}
+body { font-family: Consolas, Menlo, "Courier New", monospace; }
+#ascii-canvas { display: block; width: 100%; height: 100%; }
