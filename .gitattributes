@@ -1,0 +1,16 @@
+# Automatically detect text files
+* text=auto
+
+# Always use LF for source code
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Keep binary files unchanged
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
